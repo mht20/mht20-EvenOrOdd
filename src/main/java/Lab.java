@@ -1,3 +1,5 @@
+import java.rmi.server.RemoteRef;
+
 public class Lab {
     /**
      * Your challenge is to implement a method to determine if an int is even or odd. The method should return
@@ -14,6 +16,12 @@ public class Lab {
      * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
      */
     public String decide(int n){
-        return "";
+        if( n % 2 == 0){
+         return "Even";
+
+        }else if(n % 2 != 0){
+
+        }
+        return "Odd";
     }
 }
